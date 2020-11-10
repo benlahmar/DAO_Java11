@@ -18,6 +18,15 @@ public class ManagerQuiz implements IManager{
 
 	static QuizServiceImpl qm=new QuizServiceImpl("memory");
 	
+	/*
+	 * Question
+	 * Remplacer la QuizServiceImpl par l'interface IQuizservice?????
+	 * 
+	 * 1)descripteur de module actuelle uses
+	 * 2)						quizservice providers 
+	 * 3) ServiceLoader pour charger l'implementation
+	 * 
+	 */
 	
 	@Override
 	public void passerquiz(int idquiz) {
