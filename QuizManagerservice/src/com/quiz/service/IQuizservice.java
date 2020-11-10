@@ -17,6 +17,8 @@ public interface IQuizservice {
 	public Quiz addquiz(Quiz q);
 	public List<Quiz> allquiz();
 	public Quiz findById(int id);
+	
+	
 	public User inscrire(User u);
 	public List<User> alluser();
 	public User connect(String log, String pass);

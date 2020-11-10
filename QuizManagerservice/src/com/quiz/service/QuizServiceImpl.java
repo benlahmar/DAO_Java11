@@ -82,6 +82,7 @@ public class QuizServiceImpl implements IQuizservice{
 
 	@Override
 	public Quiz findById(int id) {
+		
 		return iquiz.findById(new Integer(id));
 		
 	}
