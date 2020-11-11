@@ -14,6 +14,7 @@ import com.moi.Quiz;
  */
 public interface IQuizservice {
 
+	public  static String datasource = "memory";
 	public Quiz addquiz(Quiz q);
 	public List<Quiz> allquiz();
 	public Quiz findById(int id);

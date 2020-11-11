@@ -27,15 +27,22 @@ public class QuizServiceImpl implements IQuizservice{
 		iquiz=Qfactory.get(datasource);
 	}
 
-	public static void datasource(String source)
-	{
-		iquiz=Qfactory.get(source);
-	}
+	
+
+	
+
 
 	public QuizServiceImpl() {
-		super();
-		// TODO Auto-generated constructor stub
+		
+		
+		System.out.println("ici");
+		iquiz=Qfactory.get(datasource);
+		
 	}
+
+
+
+
 
 
 	@Override
@@ -86,6 +93,13 @@ public class QuizServiceImpl implements IQuizservice{
 		return iquiz.findById(new Integer(id));
 		
 	}
+
+
+
+
+
+
+	
 
 
 	
